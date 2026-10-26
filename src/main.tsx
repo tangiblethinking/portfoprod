@@ -7,6 +7,7 @@ import "./styles.css";
 const router = createRouter({
   routeTree,
   scrollRestoration: true,
+  basepath: '/portfolio',
 });
 
 declare module "@tanstack/react-router" {
